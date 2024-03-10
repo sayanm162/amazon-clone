@@ -9,19 +9,76 @@
     height: 60px;
     background-color: #0F1111;
     color: white;
+    display:flex;
+    align-items: center;
 }
 
 .nav-logo {
-    height:50px;
+    /* height:50px; */
     width: 120px;
+    
 }
-
 .logo{
     background-image: url("resources/amazon_logo.png");
     height:50px;
     width:100%;
     background-size: cover;
+    
 }
+
+.border {
+    border: 1.5px solid transparent;
+   
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/* box 2 in nav */
+.add-first {
+    color: #ccc;
+    font-size: 0.75rem;
+}
+
+.add-second {
+    font-size: 1rem;
+    font-weight:650;
+}
+
+.nav-add {
+    display: flex;
+    align-items: center;
+    padding: 8px 9px 8px 9px;
+    margin-left:3px;
+}
+
+.nav-add .address-icon i {
+    margin-top:12px;
+   
+}
+
+.nav-add .address-part {
+    margin-left: 3px;
+}
+
+/* Search Box on Navbar */
+.nav-search {
+    display:flex;
+    align-items: center;
+    background-color: yellow;
+    width: 720px;
+    height:40px;
+    border-radius: 4px;
+}
+
+.search-input, .search-select {
+    height: 40px;
+    
+}
+
+
+
 
 
 
