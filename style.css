@@ -11,6 +11,7 @@
     color: white;
     display:flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .nav-logo {
@@ -66,16 +67,61 @@
 .nav-search {
     display:flex;
     align-items: center;
-    background-color: yellow;
     width: 720px;
     height:40px;
     border-radius: 4px;
+   
 }
 
 .search-input, .search-select {
     height: 40px;
     
 }
+
+.search-select {
+    width:51.6px;
+    background-color: #e6e6e6;
+    border-radius: 4px 0px 0px 4px;
+    align-items:center;
+    border:none;
+    padding:0 10px 0 5px;
+   
+
+}
+
+.search-icon{
+    width: 65px;
+    background-color: #febd69;
+    height:40px;
+    color:black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 1.2rem;
+    border-radius: 0 4px 4px 0;
+}
+
+.search-input {
+    width:795px;
+    border:none;
+    font-size: 0.9rem;
+    font-weight:500;
+    padding-left:8px;
+}
+
+/*language selection */
+
+
+
+#language-dropdown {
+    background-color: #0F1111;
+    color:  #e6e6e6;
+    border:none;
+    font-weight: 800;
+    width:50px;
+}
+
+
 
 
 
