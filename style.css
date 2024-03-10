@@ -11,6 +11,11 @@
     color: white;
 }
 
+.nav-logo {
+    height:50px;
+    width: 120px;
+}
+
 .logo{
     background-image: url("resources/amazon_logo.png");
     height:50px;
@@ -18,8 +23,5 @@
     background-size: cover;
 }
 
-.nav-logo {
-    height:50px;
-    width: 100px;
-}
+
 
