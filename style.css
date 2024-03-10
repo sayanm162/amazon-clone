@@ -39,11 +39,11 @@
 /* box 2 in nav */
 .add-first {
     color: #ccc;
-    font-size: 0.75rem;
+    font-size: 0.7rem;
 }
 
 .add-second {
-    font-size: 1rem;
+    font-size: 0.85rem;
     font-weight:650;
 }
 
@@ -109,6 +109,15 @@
     padding-left:8px;
 }
 
+.nav-search:active  {
+    box-shadow: 0 0 6px 6px  #febd69;
+}
+
+.search-input:focus-visible  {
+    outline:none;
+   
+}
+
 /*language selection */
 
 
@@ -119,10 +128,38 @@
     border:none;
     font-weight: 800;
     width:50px;
+    padding:10px;
+    box-sizing: content-box;
+}
+
+/* accounts and signin */
+.nav-first{
+    font-size:0.7rem;
+}
+
+.nav-second {
+    font-weight:700;
+    font-size:0.85rem;
+}
+
+.nav-signIn, .nav-orders{
+    padding:9px;
 }
 
 
+/* nav-cart */
+.nav-cart {
+    display: flex;
+}
 
+.nav-cart .nav-second {
+    align-self: flex-end
+
+}
+
+.nav-cart-icon {
+    font-size: 1.8rem;
+}
 
 
 
