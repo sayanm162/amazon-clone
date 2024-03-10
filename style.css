@@ -161,6 +161,51 @@
     font-size: 1.8rem;
 }
 
+/* panel css*/
+.panel {
+    display:flex;
+    background-color:  #232f3e;
+    color:white;
+    text-decoration: none;
+    height:40px;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+
+.panel-all{
+    padding:6px;
+}
+.panel-options ul{
+    display:flex;
+
+    
+}
+
+.panel-options ul li{
+    display:block;
+    margin-left: 10px;
+    padding:6px;
+}
+
+.panel-options ul li a{
+
+    text-decoration: none;
+    color:white;
+}
+
+.panel-options{
+    width: 80%;
+}
+
+.panel-deals {
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding:7px;
+}
+
+
+
 
 
 
