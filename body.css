@@ -33,7 +33,6 @@
  .box{
     height:360px;
     width:23%;
-    border: 1px solid black;
     background-color: white;
     padding: 20px 0px 15px;
  }
@@ -43,6 +42,7 @@
     justify-content: space-evenly;
     background-image:  linear-gradient(#acc2c2, white);
     padding-top:15px;
+    flex-wrap:wrap;
    
  }
 
@@ -62,4 +62,9 @@
     color:#007185;
     font-size:0.8rem;
     margin: 0.8rem 1.7rem;
+  }
+
+  .shop-section .box .box-content h2{
+    margin-left:1rem;
+    font-size:1.2rem;
   }
