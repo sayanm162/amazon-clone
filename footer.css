@@ -74,4 +74,36 @@ footer .foot-panel2 .foot-panel2-container {
 .foot-panel4{
     background-color:#131A22;
     min-height:380px;
+    display:flex;
+    justify-content:center;
+
+   
+}
+
+.foot-panel4-container {
+    width:65%;
+    display:grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(7, 1fr);
+    column-gap:10px;
+    margin-top:2.5rem;
+}
+
+.foot-panel4-container .panel4-items a p {
+    font-size: 0.75rem;
+    color:#999;
+}
+
+.foot-panel4-container .panel4-items a {
+    text-decoration: none;
+}
+
+.foot-panel4-container .panel4-items a h6 {
+   color:#ddd;
+   font-size:0.75rem;
+}
+
+.foot-panel4-container .panel4-items a:hover {
+    text-decoration: underline;
+    text-decoration-color:#ddd; 
 }
