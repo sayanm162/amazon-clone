@@ -14,3 +14,64 @@ footer .foot-panel1:hover {
     background-color: #485769;
 }
 
+footer .foot-panel2 {
+    background-color: #232F3E;
+    color:white;
+    min-height: 320px;
+    display:flex;
+    justify-content: space-evenly;
+   
+}
+
+footer .foot-panel2 ul a {
+    text-decoration: none;
+    color:#dddddd;
+    display:block;
+    line-height: 1.7rem;
+    font-size:0.85rem;
+}
+
+footer .foot-panel2 ul {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top:3rem;
+}
+
+footer .foot-panel2 .foot-panel2-container {
+    display:flex;
+    width: 75%;
+    justify-content: space-evenly;
+
+}
+
+.foot-panel3 {
+    min-height: 85px;
+    background-color: #232F3E;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.1px solid rgba(97, 95, 95, 0.993);
+}
+
+.foot-panel3 .foot-panel3-container {
+    width:40%;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.foot-panel3 .amazon-logo {
+    width: 18%;
+}
+
+.foot-panel3 .amazon-logo img {
+    width:100%;
+}
+
+
+/*footer part 4 */
+
+.foot-panel4{
+    background-color:#131A22;
+    min-height:380px;
+}
