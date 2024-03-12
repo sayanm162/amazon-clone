@@ -107,3 +107,44 @@ footer .foot-panel2 .foot-panel2-container {
     text-decoration: underline;
     text-decoration-color:#ddd; 
 }
+
+/* foot panel part 5 */
+.foot-panel5
+{
+    background-color:#131A22;
+    min-height:80px;
+    display:flex;
+    align-items: center;
+    width:100%;
+    justify-content: center;
+   
+ 
+}
+
+.foot-panel5 .foot-panel5-container {
+    width: 45%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.footNote1{
+    width:60%;
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom: 0.38rem;
+}
+
+
+.footNote1 a{
+    text-decoration: none;
+    color:#ddd;
+    font-size:0.75rem;
+}
+
+.footNote2 {
+    color:#ddd;
+    font-size:0.75rem;
+}
+
